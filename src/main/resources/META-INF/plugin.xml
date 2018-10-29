@@ -471,6 +471,11 @@
                          enabledByDefault="false" level="ERROR"
                          implementationClass="org.rust.ide.inspections.RsAnchoredPathsInspection"/>
 
+        <localInspection language="Rust" groupName="Rust"
+                         displayName="Match Check"
+                         enabledByDefault="true" level="ERROR"
+                         implementationClass="org.rust.ide.inspections.checkMatch.RsMatchCheckInspection"/>
+
         <!-- Surrounders -->
 
         <lang.surroundDescriptor language="Rust"
